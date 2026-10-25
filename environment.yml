@@ -1,0 +1,31 @@
+name: PSIO
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13
+  # Środowisko i narzędzia
+  - jupyterlab
+  - notebook
+  # Data Science / Machine Learning
+  - tensorflow
+  - keras
+  - scikit-learn
+  - pandas
+  - scipy
+  # Obraz i wizualizacja
+  - opencv
+  - matplotlib
+  - plotly
+  - scikit-image
+  - pillow
+  # GUI / Inne
+  - pyqt
+  - beautifulsoup4
+  - requests
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - numpy-typing-compat==20251206.2.4
+      - optype==0.17.1
+      - scipy-stubs==1.17.1.5
