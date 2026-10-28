@@ -1,0 +1,80 @@
+[
+    {
+        "test_id": 1,
+        "accuracy": 85.33,
+        "time_seconds": 38.19,
+        "Wh_neurons": 40,
+        "training_data_amount": 1000,
+        "test_data_amount": 10000,
+        "alpha": 0.005,
+        "min_weight": -0.1,
+        "max_weight": 0.1,
+        "iterations": 100,
+        "batch_size": 1
+    },
+    {
+        "test_id": 2,
+        "accuracy": 92.48,
+        "time_seconds": 310.43,
+        "Wh_neurons": 100,
+        "training_data_amount": 5000,
+        "test_data_amount": 10000,
+        "alpha": 0.005,
+        "min_weight": -0.1,
+        "max_weight": 0.1,
+        "iterations": 100,
+        "batch_size": 1
+    },
+    {
+        "test_id": 3,
+        "accuracy": 94.06,
+        "time_seconds": 697.59,
+        "Wh_neurons": 100,
+        "training_data_amount": 15000,
+        "test_data_amount": 10000,
+        "alpha": 0.005,
+        "min_weight": -0.1,
+        "max_weight": 0.1,
+        "iterations": 100,
+        "batch_size": 1
+    },
+    {
+        "test_id": 4,
+        "accuracy": 76.73,
+        "time_seconds": 2.13,
+        "Wh_neurons": 40,
+        "training_data_amount": 1000,
+        "test_data_amount": 10000,
+        "alpha": 0.1,
+        "min_weight": -0.1,
+        "max_weight": 0.1,
+        "iterations": 100,
+        "batch_size": 100
+    },
+    {
+        "test_id": 5,
+        "accuracy": 90.88,
+        "time_seconds": 37.92,
+        "Wh_neurons": 100,
+        "training_data_amount": 5000,
+        "test_data_amount": 10000,
+        "alpha": 0.1,
+        "min_weight": -0.1,
+        "max_weight": 0.1,
+        "iterations": 100,
+        "batch_size": 100
+    },
+    {
+        "test_id": 6,
+        "accuracy": 92.5,
+        "time_seconds": 86.32,
+        "Wh_neurons": 100,
+        "training_data_amount": 15000,
+        "test_data_amount": 10000,
+        "alpha": 0.1,
+        "min_weight": -0.1,
+        "max_weight": 0.1,
+        "iterations": 100,
+        "batch_size": 100
+    }
+]
